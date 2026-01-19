@@ -14,7 +14,7 @@ const DetailedFooter = () => {
             <div>
               <h3 className="text-white font-bold text-xl uppercase tracking-widest mb-4">Shashank Sony</h3>
               <p className="text-slate-500 text-sm leading-relaxed">
-                Specializing in high-performance SQL, Python automation, and FastAPI backends. 
+                Specializing in high-performance SQL, Python automation,ETL with Pyspark and FastAPI backends. 
                 Currently delivering data excellence at Aye Finance.
               </p>
             </div>
@@ -39,7 +39,7 @@ const DetailedFooter = () => {
             <ul className="text-slate-400 text-sm space-y-4">
               <li className="group">
                 <span className="block text-white font-medium group-hover:text-brand-cyan transition-colors">Aye Finance</span>
-                <span className="text-xs text-slate-500">Data Analyst (Current)</span>
+                <span className="text-xs text-slate-500">SQL & ETL Developer (Current)</span>
               </li>
               <li className="group">
                 <span className="block text-white font-medium group-hover:text-brand-cyan transition-colors">PDPL</span>
