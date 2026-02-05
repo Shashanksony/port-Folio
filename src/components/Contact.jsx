@@ -266,7 +266,7 @@ const Contact = () => {
   });
 
   // Google Sheets Web App URL
-  const GOOGLE_SHEETS_URL = 'https://script.google.com/macros/s/YOUR_DEPLOYMENT_ID/exec';
+  const GOOGLE_SHEETS_URL = 'https://script.google.com/macros/s/AKfycbwxc42uO8VfvB9xGgtD13ZBfA-wnd8Jch2oKypGxJjRiCS6AWMmKTMTXlJA06al49az/exec';
 
   const handleChange = (e) => {
     setFormData({
