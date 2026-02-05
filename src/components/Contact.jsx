@@ -40,7 +40,8 @@ const Contact = () => {
 
       const response = await fetch(GOOGLE_SHEETS_URL, {
         method: 'POST',
-        body: formDataToSend
+        body: formDataToSend,
+        mode: 'no-cors'
       });
 
       // Check if we got a response
