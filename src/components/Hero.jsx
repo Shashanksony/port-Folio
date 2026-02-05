@@ -19,7 +19,7 @@ const Hero = () => {
         className="flex-1 text-center md:text-left z-10 max-w-2xl"
       >
         {/* Badge */}
-        <motion.div
+        {/* <motion.div
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.2 }}
@@ -27,7 +27,7 @@ const Hero = () => {
         >
           <Sparkles size={16} />
           <span>Available for Opportunities</span>
-        </motion.div>
+        </motion.div> */}
         
         {/* Main Heading */}
         <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-black text-white mb-4 sm:mb-6 leading-[1.1]">
