@@ -16,7 +16,7 @@ const Contact = () => {
   });
 
   // Google Sheets Web App URL - UPDATE THIS with your actual deployment URL
-  const GOOGLE_SHEETS_URL = 'https://script.google.com/macros/s/AKfycbweSXLHa-UMLD1_5RQMKKrLjBri81ecExGg-BbueUPygV-9H6jOKKYI_h3EAt1P1gj_/exec';
+  const GOOGLE_SHEETS_URL = 'https://script.google.com/macros/s/AKfycbxVmzoDmX-je7io5N5vLXldA9MO1mJ3vg8yjBBqE8Aqt-kxZIBRselWf7v_0ncAvCLd/exec';
 
   const handleChange = (e) => {
     setFormData({
