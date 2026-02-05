@@ -1,9 +1,3 @@
-
-  // Google Sheets Web App URL
-  const GOOGLE_SHEETS_URL = 'https://script.google.com/macros/s/AKfycbwxc42uO8VfvB9xGgtD13ZBfA-wnd8Jch2oKypGxJjRiCS6AWMmKTMTXlJA06al49az/exec';
-
-
-
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Mail, Send, CheckCircle, AlertCircle, Loader } from 'lucide-react';
