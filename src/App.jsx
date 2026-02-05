@@ -96,24 +96,26 @@ function App() {
           <motion.div 
             initial={{ opacity: 1 }}
             exit={{ opacity: 0, transition: { duration: 0.5 } }}
-            className="fixed inset-0 z-[200] bg-[#030712] flex items-center justify-center"
+            className="fixed inset-0 z-[200] bg-[#030712] flex items-center justify-center p-4"
           >
-            <div className="relative">
+            <div className="relative flex flex-col items-center"> {/* Force centering */}
               <motion.div 
                 animate={{ 
                   scale: [0.8, 1.2, 0.8],
                   rotate: [0, 180, 360]
                 }}
                 transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
-                className="w-20 h-20 border-4 border-brand-cyan/30 border-t-brand-cyan rounded-full"
+        // Added responsive width/height: w-16 on mobile, w-20 on desktop
+                className="w-16 h-16 md:w-20 md:h-20 border-4 border-brand-cyan/30 border-t-brand-cyan rounded-full"
               />
               <motion.div 
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.5 }}
-                className="absolute -bottom-16 left-1/2 -translate-x-1/2 whitespace-nowrap"
+        // Changed absolute positioning to margin-top for better mobile behavior
+                className="mt-8 text-center"
               >
-                <span className="text-brand-cyan font-mono text-sm tracking-[0.3em]">
+                <span className="text-brand-cyan font-mono text-xs md:text-sm tracking-[0.2em] md:tracking-[0.3em] uppercase">
                   LOADING PORTFOLIO
                 </span>
               </motion.div>
